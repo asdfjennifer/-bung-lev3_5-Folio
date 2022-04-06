@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*===========================
+        General Styles
+===========================*/
+
+/* Fonts */
+@font-face {
+    font-family: Athene;
+    src: url("../fonts/Athene.otf");
+}
+
+@font-face {
+    font-family: Befont;
+    src: url("../fonts/Befonts.com.url");
+}
+
+@font-face {
+    font-family: Ellis;
+    src: url("../fonts/Readme.txt");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+/*===========================
+        Header
+===========================*/
+
+menu {
+    color: #042A5A;
+    position: fixed;
+    border-bottom: 2px solid #042A5A;
+}
+
+menu p:last-child{
+    text-align: right; 
+    margin: 0 0 0;
+}
+
+header {
+    background: #EFE8D7;
+    color: #042A5A;
+}
+
+header figure {
+    width: 100%;
+}
+
+header figure img {
+    width: 20%;
+    text-align: center;
+}
+
+span {
+    font-family: Athene;
+}
+
+h1 {
+    font-family: Athene;
+    font-size: 160px;
+    width: 45%
+    margin: 0 auto;
+    color: #042A5A;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+
+/*===========================
+        Main
+===========================*/
+
+.release {
+    background: #F4C4C4;
+}
+
+/* RELEASE */
+h2 {
+    font-family: Athene;
+    font-size: 15vh;
+    font-weight: 400;
+}
+
+/* Sticker */
+main section img {
+    width: 5%;
+    margin: 5vh 5vw 5vw 90vw;
+}
+
+/*==========================*/
+
+.works {
+    background: #DEB873;
+    color: #7D2222;
+}
+
+/* WORKS */
+h3 {
+    font-family: Athene;
+    font-size: 15vh;
+    font-weight: 400;
+    text-align: right;
+}
+
+/* Künstlernamen */
+h5 {
+    font-family: Athene;
+    font-size: 10vh;
+    font-weight: 400;
+    margin-left: 5vw;
+}
+
+main section article:nth-of-type(1){
+    padding: 0 0 50vh 0;
+    background: url("../img/bg-marconatto-1.jpg") no-repeat;
+    background-position: right;
+    margin-right: 10vh;
+}
+
+/*==========================*/
+
+.contact { 
+    background: #D2D2D2;
+    color: #388883;
+}
+
+h4 {
+    font-family: Athene;
+    color: #388883;
+    font-size: 15vh;
+    font-weight: 400;
+}
+
+/*===========================
+        Footer
+===========================*/
+
+nav {
+    text-align: right;
+    margin-right: 8vw;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 1vh;
+}
+
+nav ul li a { 
+    color: #388883;
+    text-decoration: none;
+}
+
+nav ul li a:hover { 
+    text-decoration: underline;
+}
+
+
+
+/* Option + shift + - längerer Bindestrich */
