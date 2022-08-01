@@ -19,4 +19,6 @@ Verwendete Technologien:
 - HTML
 - CSS
 
+Note: Project is not ready yet
+
 ![ProjectFolio](https://user-images.githubusercontent.com/98667941/182251859-9bc377bd-acc8-4b58-9242-6d8411a45c2c.png)
