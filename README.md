@@ -12,7 +12,7 @@ Assets:
 
 - Schriften: Open Sans, Athene
 
-Ergebnis: https://asdfjennifer.github.io/-bung-lev3_5-Folio/
+Ergebnis: https://asdfjennifer.github.io/Temporary-Folio/
 
 Verwendete Technologien:
 
